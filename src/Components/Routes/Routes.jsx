@@ -4,13 +4,14 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import Blog from "../Pages/Blog/Blog";
+import Contact from "../Pages/Contact/Contact";
 
 
 // import Blog from "../Pages/Blog/Blog";
 // import Recipes from "../Pages/Recipes/Recipes";
 // import PrivateRoute from "./PrivateRoute";
 // import ErrorPage from "../Pages/Error/ErrorPage";
-// import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -50,15 +51,15 @@ const router = createBrowserRouter([
         path: "/register",
         element: <Register></Register>,
       },
-      // {
-      //   path: "/blog",
-      //   element: <Blog></Blog>,
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
        
-      // },
-      // {
-      //   path: "/contact",
-      //   element: <Contact></Contact>,
-      // },
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
       // {
       //   path: "/terms",
       //   element: <h2>Terms and Condition page coming soon...</h2>,
