@@ -21,8 +21,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        // loader: () =>fetch('https://flavour-fusion-server-siam-wd.vercel.app/chefs')
-        
         loader: async () => {
           try {
             const slideData = await fetch('https://chef-recipe-hunter-server-eagl3eyes.vercel.app/slides');

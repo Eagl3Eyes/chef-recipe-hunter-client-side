@@ -10,14 +10,11 @@ const Contact = () => {
       <div className="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
         <h2 className="text-3xl font-bold mb-6">Contact us</h2>
         <p className="text-gray-500 mb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Laudantium, modi accusantium ipsum corporis quia asperiores
-          dolorem nisi corrupti eveniet dolores ad maiores repellendus enim
-          autem omnis fugiat perspiciatis? Ad, veritatis.
+        We would love to hear from you! Whether you have a question, comment, or just want to say hello, we are here to help. Please use the contact form below to get in touch with us, and we will respond as soon as possible.
         </p>
         <p className="text-gray-500 mb-2">New York, 94126, United States</p>
         <p className="text-gray-500 mb-2">+ 01 234 567 89</p>
-        <p className="text-gray-500 mb-2">info@gmail.com</p>
+        <p className="text-gray-500 mb-2">rooster@gmail.com</p>
       </div>
       <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
         <form>
