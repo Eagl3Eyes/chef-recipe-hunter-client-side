@@ -7,10 +7,6 @@ import Register from "../Pages/Register/Register";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 
-
-// import Blog from "../Pages/Blog/Blog";
-// import Recipes from "../Pages/Recipes/Recipes";
-// import PrivateRoute from "./PrivateRoute";
 // import ErrorPage from "../Pages/Error/ErrorPage";
 
 const router = createBrowserRouter([
@@ -64,11 +60,11 @@ const router = createBrowserRouter([
       //   path: "/terms",
       //   element: <h2>Terms and Condition page coming soon...</h2>,
       // },
-      // {
-      //   path: "/chefRecipes/:id",
-      //   element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
-      //   loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
-      // }
+      {
+        path: "/chefRecipes/:id",
+        // element: ,
+        loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
+      }
     ],
   },
 ]);
