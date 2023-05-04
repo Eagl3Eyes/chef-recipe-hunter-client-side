@@ -23,7 +23,7 @@ const Statistics = () => {
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     Healthy
                   </dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-orange-500">
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-primary">
                     100%
                   </dd>
                 </div>
@@ -32,7 +32,7 @@ const Statistics = () => {
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     Authentic
                   </dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-orange-500">
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-primary">
                     99.9%
                   </dd>
                 </div>
@@ -41,7 +41,7 @@ const Statistics = () => {
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     Chefs
                   </dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-orange-500">
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-primary">
                     150+
                   </dd>
                 </div>
@@ -50,7 +50,7 @@ const Statistics = () => {
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     Recipes
                   </dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-orange-500">
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-primary">
                     850+
                   </dd>
                 </div>
@@ -60,7 +60,7 @@ const Statistics = () => {
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                     Users
                   </dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-orange-500">
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-primary">
                     5000+
                   </dd>
                 </div>

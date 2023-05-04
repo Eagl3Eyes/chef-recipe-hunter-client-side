@@ -39,15 +39,17 @@ const ChefCard = ({ chef }) => {
           </p>
 
           <div className="card-actions justify-between items-center">
-            <Link to={`/chefRecipes/${id}`}>
-              <button className="btn btn-primary">View Recipes</button>
-            </Link>
+            
 
-            <div className="badge badge-outline gap-2">
+            <div className="flex gap-2 justify-center items-center">
               <FaThumbsUp></FaThumbsUp>
               <span>{likes}</span>
             </div>
           </div>
+          <br />
+          <Link to={`/chefRecipes/${id}`}>
+              <button className="btn btn-primary absolute inset-x-0 bottom-0">View Recipes</button>
+            </Link>
         </div>
       </div>
     </>

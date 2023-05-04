@@ -94,7 +94,7 @@ const Login = () => {
             Forget Password?
           </Link>
           <div className="mt-6">
-            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-orange-500 rounded-md hover:bg-orange-400 focus:outline-none focus:bg-orange-400">
+            <button className="btn-primary w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg--500 rounded-md">
               Login
             </button>
           </div>
@@ -119,7 +119,7 @@ const Login = () => {
           Don't have an account?
           <Link
             to="/register"
-            className="font-medium ml-2 text-orange-600 hover:underline"
+            className="font-medium ml-2 text-rose-600 hover:underline"
           >
             Please Register
           </Link>
