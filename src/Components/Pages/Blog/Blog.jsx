@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { FaDownload } from "react-icons/fa";
 import { useLoaderData } from "react-router-dom";
-// import ReactToPdf from "react-to-pdf";
+import ReactToPdf from "react-to-pdf";
 
 const Blog = () => {
   const ref = useRef();
@@ -13,16 +13,16 @@ const Blog = () => {
 
   return (
     <div>
-      {/* <div className="mt-6 text-end mr-6">
+      <div className="mt-6 text-center mr-6">
+        <h2 className="text-xl mb-2">You can also Download as PDF</h2>
         <ReactToPdf targetRef={ref} options={options} filename="blog.pdf">
           {({ toPdf }) => (
-            <button className="btn btn-success " onClick={toPdf}>
-              <FaDownload className="inline-block mr-2 text-white"></FaDownload>{" "}
-              Download Pdf
+            <button className="btn btn-primary" onClick={toPdf}>
+              <FaDownload className="text-white"></FaDownload> Download PDF
             </button>
           )}
         </ReactToPdf>
-      </div> */}
+      </div>
       <div ref={ref} className="min-h-screen">
         <div className="mt-20 mx-10 text-primary border-2 bg-indigo-50  border-primary rounded p-5">
           <div>
