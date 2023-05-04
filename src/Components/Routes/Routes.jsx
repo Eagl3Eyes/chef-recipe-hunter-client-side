@@ -24,10 +24,10 @@ const router = createBrowserRouter([
         
         loader: async () => {
           try {
-            const slideData = await fetch('http://localhost:5000/slides');
+            const slideData = await fetch('https://chef-recipe-hunter-server-eagl3eyes.vercel.app/slides');
             const slides = await slideData.json();
 
-            const chefsData = await fetch('https://flavour-fusion-server-siam-wd.vercel.app/chefs');
+            const chefsData = await fetch('https://chef-recipe-hunter-server-eagl3eyes.vercel.app/chef');
             const chefs = await chefsData.json();
     
     
@@ -65,7 +65,7 @@ const router = createBrowserRouter([
       {
         path: "/chefRecipes/:id",
         element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
-        loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
+        loader: ({params})=>fetch(`https://chef-recipe-hunter-server-eagl3eyes.vercel.app/recipe/${params.id}`)
       }
     ],
   },
