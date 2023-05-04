@@ -17,7 +17,7 @@ const ChefCard = ({ chef }) => {
   } = chef;
   return (
     <>
-      <div className="card w-96 mx-auto bg-base-100 shadow-xl">
+      <div className="card w-80 mx-auto bg-base-100 shadow-xl">
         <figure>
           <LazyLoad
             className="LazyLoad"
