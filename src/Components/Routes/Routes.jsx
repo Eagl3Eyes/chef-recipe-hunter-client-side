@@ -6,6 +6,8 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
+import PrivateRoute from "./PrivateRoute";
+import Recipes from "../Pages/Recipes/Recipes";
 
 // import ErrorPage from "../Pages/Error/ErrorPage";
 
@@ -62,7 +64,7 @@ const router = createBrowserRouter([
       // },
       {
         path: "/chefRecipes/:id",
-        // element: ,
+        element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
         loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
       }
     ],
