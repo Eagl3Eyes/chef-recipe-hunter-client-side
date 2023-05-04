@@ -9,6 +9,7 @@ import Contact from "../Pages/Contact/Contact";
 import PrivateRoute from "./PrivateRoute";
 import Recipes from "../Pages/Recipes/Recipes";
 import Error from "../Pages/Error/Error";
+import Terms from "../Pages/Terms/Terms";
 
 
 const router = createBrowserRouter([
@@ -60,7 +61,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/terms",
-        element: <h2>Terms and Condition page coming soon...</h2>,
+        element: <Terms></Terms>,
       },
       {
         path: "/chefRecipes/:id",
