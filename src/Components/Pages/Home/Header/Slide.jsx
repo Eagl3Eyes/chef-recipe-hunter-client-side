@@ -5,9 +5,9 @@ const Slide = ({ slide }) => {
   const { id, name, thumbnail, details } = slide;
 
   return (
-    <div className="relative overflow-hidden rounded-lg">
+    <div className="relative overflow-hidden">
       <img
-        style={{ height: "550px" }}
+        style={{ height: "450px" }}
         className="w-full object-cover"
         src={thumbnail}
         alt="Image"
