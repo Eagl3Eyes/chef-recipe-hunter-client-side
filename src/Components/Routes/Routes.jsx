@@ -8,14 +8,14 @@ import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import PrivateRoute from "./PrivateRoute";
 import Recipes from "../Pages/Recipes/Recipes";
+import Error from "../Pages/Error/Error";
 
-// import ErrorPage from "../Pages/Error/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    // errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -58,10 +58,10 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
-      // {
-      //   path: "/terms",
-      //   element: <h2>Terms and Condition page coming soon...</h2>,
-      // },
+      {
+        path: "/terms",
+        element: <h2>Terms and Condition page coming soon...</h2>,
+      },
       {
         path: "/chefRecipes/:id",
         element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
