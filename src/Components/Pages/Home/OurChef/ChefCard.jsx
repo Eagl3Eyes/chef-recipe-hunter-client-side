@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import { FaThumbsUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 import LazyLoad from "react-lazy-load";
 
 const ChefCard = ({ chef }) => {

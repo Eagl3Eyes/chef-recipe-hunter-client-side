@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         
         loader: async () => {
           try {
-            const slideData = await fetch('https://flavour-fusion-server-siam-wd.vercel.app/slides');
+            const slideData = await fetch('http://localhost:5000/slides');
             const slides = await slideData.json();
 
             const chefsData = await fetch('https://flavour-fusion-server-siam-wd.vercel.app/chefs');
@@ -41,32 +41,32 @@ const router = createBrowserRouter([
         }
 
       },
-      {
-        path: "/login",
-        element: <Login></Login>,
-      },
-      {
-        path: "/register",
-        element: <Register></Register>,
-      },
-      {
-        path: "/blog",
-        element: <Blog></Blog>,
+      // {
+      //   path: "/login",
+      //   element: <Login></Login>,
+      // },
+      // {
+      //   path: "/register",
+      //   element: <Register></Register>,
+      // },
+      // {
+      //   path: "/blog",
+      //   element: <Blog></Blog>,
        
-      },
-      {
-        path: "/contact",
-        element: <Contact></Contact>,
-      },
-      {
-        path: "/terms",
-        element: <h2>Terms and Condition page coming soon...</h2>,
-      },
-      {
-        path: "/chefRecipes/:id",
-        element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
-        loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
-      }
+      // },
+      // {
+      //   path: "/contact",
+      //   element: <Contact></Contact>,
+      // },
+      // {
+      //   path: "/terms",
+      //   element: <h2>Terms and Condition page coming soon...</h2>,
+      // },
+      // {
+      //   path: "/chefRecipes/:id",
+      //   element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
+      //   loader: ({params})=>fetch(`https://flavour-fusion-server-siam-wd.vercel.app/recipes/${params.id}`)
+      // }
     ],
   },
 ]);

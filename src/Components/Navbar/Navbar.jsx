@@ -53,8 +53,8 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/">
-            <h2 className="md:text-3xl text-lg font-bold text-primary md:ml-10">
-              Flavour Fusion
+            <h2 className="md:text-3xl text-lg font-bold md:ml-10">
+              <span className="text-primary">R</span>ooster <span className="text-primary">R</span>est
             </h2>
           </Link>
         </div>

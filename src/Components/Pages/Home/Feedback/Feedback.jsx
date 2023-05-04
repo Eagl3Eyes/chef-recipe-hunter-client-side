@@ -8,25 +8,21 @@ const Feedback = () => {
           <div>
             <div className="relative flex-shrink-0 w-48 min-h-min">
               <img
-                className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-red-500"
+                src="https://images.unsplash.com/photo-1562788869-4ed32648eb72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
                 alt=""
               />
             </div>
             <div className="mt-8">
               <blockquote>
-                <p className="text-xl text-black dark:text-white">
-                  “Flavours Fusion has a great collection of recipes, but it
-                  would be helpful to have a search bar or filter options to
-                  easily find specific recipes. This would improve the user
-                  experience and make it easier for users to navigate through
-                  the website.”
+                <p className="text-xl text-gray-600 dark:text-white">
+                  “As a UI/UX developer, I find Rooster Rest's website to be an excellent example of a well-designed food website. The website features a clean and intuitive layout with a consistent color scheme and typography that creates a cohesive and visually appealing experience. The website's responsive design also ensures that users can access the website on any device with ease. The website's high-quality imagery and use of animations and interactive elements also help to engage users and showcase the restaurant's offerings. Overall, Rooster Rest's website delivers an exceptional user experience that combines aesthetics, functionality, and accessibility to create an enjoyable and memorable experience for its users.”
                 </p>
               </blockquote>
               <p className="text-lg font-semibold text-black dark:text-white mt-7">
-                John Doe
+                Jack Foster
               </p>
-              <p className="mt-1 text-base text-gray-600">Frontend Developer</p>
+              <p className="mt-1 text-base text-gray-600">UI/UX Designer</p>
             </div>
           </div>
         </div>
@@ -34,25 +30,21 @@ const Feedback = () => {
           <div>
             <div className="relative flex-shrink-0 w-48 min-h-min">
               <img
-                className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
+                className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-red-500"
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="Ketty Perry"
               />
             </div>
             <div className="mt-8">
               <blockquote>
-                <p className="text-xl text-black dark:text-white">
-                  “Flavour Fusion design looks visually appealing, but some of
-                  the recipe descriptions could use more details, such as
-                  cooking times and serving sizes. Adding this information would
-                  make it easier for users to plan their meals and cook the
-                  recipes more efficiently.”
+                <p className="text-xl text-gray-600 dark:text-white">
+                  “Rooster Rest's website stands out for its clean, modern design and attention to detail. The website is optimized for performance and utilizes modern web technologies, making it fast and up-to-date with the latest web standards. The high-quality imagery and interactive elements throughout the website help to entice users and showcase the restaurant's offerings. As a frontend developer, I appreciate the well-structured code and consistent color scheme, which contribute to the overall user experience. Overall, Rooster Rest's website is a great example of a well-executed food website that is both visually appealing and technically sound.”
                 </p>
               </blockquote>
               <p className="text-lg font-semibold text-black dark:text-white mt-7">
-                Ketty Perry
+                Regina Flores
               </p>
-              <p className="mt-1 text-base text-gray-600">UI/UX Designer</p>
+              <p className="mt-1 text-base text-gray-600">Frontend Developer</p>
             </div>
           </div>
         </div>
