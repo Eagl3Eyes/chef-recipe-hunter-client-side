@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <footer className=" bg-indigo-50 mx-auto py-10 px-4 mt-20">
-        <div className="mb-16 md:mx-36 flex flex-col md:flex-row md:items-center justify-between">
+        {/* <div className="mb-16 md:mx-36 flex flex-col md:flex-row md:items-center justify-between">
           <div className="grow mt-4 md:mt-0 md:ml-12"></div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <span>
@@ -111,7 +111,7 @@ const Footer = () => {
               </svg>
             </span>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:space-x-12 w-[100%]">
           <div className="mb-4">
             <h4 className="font-medium text-xl md:text-[26px] md:leading-[30.3px] lg:text-[31px] lg:leading-[40.3px] text-gray-700 dark:text-gray-100">
