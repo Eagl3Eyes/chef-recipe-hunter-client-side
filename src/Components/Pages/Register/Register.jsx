@@ -145,7 +145,7 @@ const Register = () => {
               />
               <span className="ml-2">
                 I agree to the
-                <Link className="text-primary ml-2" to="/terms">
+                <Link className="text-rose-600 ml-2" to="/terms">
                   terms and conditions
                 </Link>
               </span>
@@ -167,7 +167,7 @@ const Register = () => {
           Already have an account?
           <Link
             to="/login"
-            className="font-medium ml-2 text-orange-600 hover:underline"
+            className="font-medium ml-2 text-rose-600 hover:underline"
           >
             Login
           </Link>
